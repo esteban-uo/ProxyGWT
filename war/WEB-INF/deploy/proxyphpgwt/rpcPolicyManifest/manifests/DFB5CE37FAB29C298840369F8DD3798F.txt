@@ -1,0 +1,2 @@
+serviceClass: com.example.proxyphpgwt.client.GreetingService
+path: ABCA1DEC4FEA985AF5458673BE4273B0.gwt.rpc
