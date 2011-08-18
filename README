@@ -1,0 +1,12 @@
+- Crear una carpeta llamada 'ajax' dentro del espacio de trabajo de un servidor con apache y php (en root)
+- Crear un archivo json.php dentro de la carpeta y colocar este contenido:
+
+<pre>
+<?php
+	var_dump($_GET);
+?>
+</pre>
+<p>Suma: <?php echo $_GET["valor1"] + $_GET["valor2"]?></p>
+
+- Colocar ruta absoluta en src\com\example\proxyphpgwt\server\ProxyServlet.java (linea 24) de el archivo php 
+ie: http://localhost/ajax/json.php
